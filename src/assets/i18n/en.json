@@ -1,0 +1,25 @@
+{
+  "ABOUT": {
+    "ME": "About Me",
+    "FULL_NAME": "Full name:",
+    "PHONE": "Phone:",
+    "EMAIL": "Email:",
+    "ADDRESS": "Address:"
+  },
+  "EDUCATION": {
+    "TITLE": "Education"
+  },
+  "WORK_EXPERIENCE": {
+    "TITLE": "Work experiences"
+  },
+  "PARTICIPATING_PROJECTS": {
+    "TITLE": "Participating projects"
+  },
+  "SKILL": {
+    "TITLE": "Skills"
+  },
+  "STARTED": {
+    "TITLE": "Thank you",
+    "DESCRIPTION": "Thank you for my cv, you can contact me via facebook, zalo or mail.\n  Thank you very much."
+  }
+}

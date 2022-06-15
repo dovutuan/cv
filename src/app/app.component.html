@@ -1,0 +1,197 @@
+<div class="fh5co-loader"></div>
+
+<div id="page">
+
+  <header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+          style="background-image:url('assets/images/cover_bg_3.jpg');" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+          <div class="display-t js-fullheight">
+            <div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+              <div class="profile-thumb" style="background: url('assets/images/logo.jpeg');"></div>
+              <h1><span>{{info?.name}}</span></h1>
+              <h2><span>{{info?.technology}}</span></h2>
+              <p>
+              <ul class="fh5co-social-icons">
+                <li *ngFor="let social of socials">
+                  <a [href]="social.href">
+                    <i [ngClass]="social.icon"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="fh5co-about" class="animate-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'ABOUT.ME' | translate}}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <ul class="info">
+            <li><span class="first-block">{{'ABOUT.FULL_NAME' | translate}}</span><span
+              class="second-block">{{info?.name}}</span></li>
+            <li><span class="first-block">{{'ABOUT.PHONE' | translate}}</span><span
+              class="second-block">{{info?.phone}}</span></li>
+            <li><span class="first-block">{{'ABOUT.EMAIL' | translate}}</span><span
+              class="second-block">{{info?.email}}</span></li>
+            <li><span class="first-block">{{'ABOUT.ADDRESS' | translate}}</span><span
+              class="second-block">{{info?.address}}</span></li>
+          </ul>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <p>{{info?.description}}</p>
+          <ul class="fh5co-social-icons">
+            <li *ngFor="let social of socials">
+              <a [href]="social.href">
+                <i [ngClass]="social.icon"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fh5co-education" class="fh5co-bg-color">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'EDUCATION.TITLE' | translate}}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-md-offset-0">
+          <ul class="timeline">
+            <ng-container *ngFor="let education of educations, let i = index">
+              <li class="animate-box" [ngClass]="(i % 2 === 0) ? 'timeline-inverted' : 'timeline-unverted'">
+                <div class="timeline-badge"><i class="fas fa-graduation-cap"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">{{education.specialize}}</h3>
+                    <span class="company">{{education.year}}</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>{{education.description}}</p>
+                  </div>
+                </div>
+              </li>
+            </ng-container>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fh5co-resume" class="fh5co-bg-color">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'WORK_EXPERIENCE.TITLE'| translate}}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-md-offset-0">
+          <ul class="timeline">
+            <ng-container *ngFor="let workExperience of workExperiences, let i = index">
+              <li class="animate-box" [ngClass]="(i % 2 === 0) ? 'timeline-inverted' : 'timeline-unverted'">
+                <div class="timeline-badge"><i class="fas fa-suitcase"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">{{workExperience.specialize}}</h3>
+                    <span class="company">{{workExperience.company + ' - ' + workExperience.year}}</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>{{workExperience.description}}</p>
+                  </div>
+                </div>
+              </li>
+            </ng-container>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fh5co-participating_projects" class="fh5co-bg-color">
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'WORK_EXPERIENCE.TITLE'| translate}}</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-md-offset-0">
+          <ul class="timeline">
+            <ng-container *ngFor="let participatingProject of participatingProjects, let i = index">
+              <li class="animate-box" [ngClass]="(i % 2 === 0) ? 'timeline-inverted' : 'timeline-unverted'">
+                <div class="timeline-badge"><i class="fas fa-suitcase"></i></div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h3 class="timeline-title">{{participatingProject.nameProject}}</h3>
+                    <span class="company">{{participatingProject.position}}</span>
+                  </div>
+                  <div class="timeline-body">
+                    <p>{{participatingProject.description}}</p>
+                  </div>
+                </div>
+              </li>
+            </ng-container>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fh5co-skills" class="animate-box">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'SKILL.TITLE' | translate}}</h2>
+        </div>
+      </div>
+      <div class="row row-pb-md">
+        <div *ngFor="let skill of skills" class="col-md-3 col-sm-6 col-xs-12 text-center">
+          <div class="chart" [attr.data-percent]="skill.percent">
+            <span><strong>{{skill.name}}</strong>{{skill.percent + '%'}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="fh5co-started" class="fh5co-bg-dark">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row animate-box">
+        <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+          <h2>{{'STARTED.TITLE' | translate}}</h2>
+          <p>{{'STARTED.DESCRIPTION' | translate}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="fh5co-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <p>&copy; Designed by <a href="https://www.facebook.com/tuanandh" target="_blank">tuandv</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="gototop js-top">
+  <a href="#" class="js-gotop" (click)="scrollTop()"><i class="fas fa-arrow-up"></i></a>
+</div>
