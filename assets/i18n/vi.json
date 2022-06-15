@@ -1,0 +1,25 @@
+{
+  "ABOUT": {
+    "ME": "Giới thiệu",
+    "FULL_NAME": "Họ và tên:",
+    "PHONE": "Số điện thoại:",
+    "EMAIL": "Email:",
+    "ADDRESS": "Địa chỉ:"
+  },
+  "EDUCATION": {
+    "TITLE": "Học vấn"
+  },
+  "WORK_EXPERIENCE": {
+    "TITLE": "Kinh nghiệm làm việc"
+  },
+  "PARTICIPATING_PROJECTS": {
+    "TITLE": "Dự án tham gia"
+  },
+  "SKILL": {
+    "TITLE": "Kỹ năng"
+  },
+  "STARTED": {
+    "TITLE": "Cảm ơn",
+    "DESCRIPTION": "Cảm ơn bạn đã đợc cv của tôi, bạn có thể liên hê với tôi qua facebook, zalo hoặc mail.\n Chân thành cảm ơn bạn."
+  }
+}
