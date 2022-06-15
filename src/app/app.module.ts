@@ -7,7 +7,7 @@ import {HttpClient, HttpClientModule} from '@angular/common/http';
 import {TranslateHttpLoader} from '@ngx-translate/http-loader';
 
 export function HttpLoaderFactory(httpClient: HttpClient): any {
-  return new TranslateHttpLoader(httpClient);
+  return new TranslateHttpLoader(httpClient, './cv/assets/i18n/', '.json');
 }
 
 @NgModule({
