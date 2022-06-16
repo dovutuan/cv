@@ -30,8 +30,9 @@ export class AppComponent {
   constructor(private translate: TranslateService,
               @Inject(DOCUMENT) private document: Document) {
 
-    const userLang = navigator.language.split('-')[0] || 'en';
-    const lang = /(en|vi)/gi.test(userLang) ? userLang : 'en';
+    // const userLang = navigator.language.split('-')[0] || 'en';
+    // const lang = /(en|vi)/gi.test(userLang) ? userLang : 'en';
+    const lang = 'vi';
     const key = lang.toUpperCase();
 
     translate.setDefaultLang(lang);

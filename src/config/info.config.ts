@@ -6,21 +6,32 @@ export const info: any = {
     address: 'Nam Từ Liêm, Hà Nội',
     technology: 'Web Developer',
     description:
-      '- Mong muốn được làm việc trong một môi trường linh hoạt, sáng tạo, hiện đại và chuyên nghiệp. Đồng hành cùng anh chị đồng nghiệp mới.\n' +
-      '- Được tiếp thu những kiến thức từ anh chị đồng nghiệp để nâng cao kiến thức của bản thân. Góp phần nâng tầm thương hiệu của công ty và vương tới những vị trí cao hơn trong nghề nghiệp.\n' +
-      '- Trở thành Developer fullstack Laravel + Vuejs hoặc Angular và có thể chuyển sang Expressjs trong tương lai.\n' +
-      '- Được học hỏi thêm về kiên thức về ionic framework, electronjs.'
-  },
-  EN: {
-    name: 'Đỗ Vũ Tuấn',
-    phone: '0398599888',
-    email: 'traitimcuatuan@gmail.com',
-    address: 'Nam Tu Liem, Ha Noi',
-    technology: 'Web Developer',
-    description:
-      '- Desire to work in a flexible, creative, modern and professional environment. Accompany new colleagues.\n' +
-      '- Acquiring knowledge from colleagues to improve their own knowledge. Contributing to raising the company\'s brand and reaching higher positions in the profession.\n' +
-      '- Become a fullstack Laravel + Vuejs or Angular Developer and may switch to Expressjs in the future.\n' +
-      '- Learn more about knowledge about ionic framework, electronjs.'
+      '- Đã làm team lead frontend, review code, estimate task và phân công task cho các thành viên trong team.'
+      + '\n' +
+      '- Đã tham gia nhiều dự án với các framework khác nhau như: Laravel, Vuejs, Angular.'
+      + '\n' +
+      '- Có kinh nghiệm làm việc với các material design framework gồm: Vuetify, BootstrapVue, Ng-bootstrap, Ngx-bootstrap, Angular Material.'
+      + '\n' +
+      '- Đã sử dụng html css framework như: Bootstrap, Bulma.'
+      + '\n' +
+      '- Có tìm hiểu các framework gồm: Electronjs, Nodejs Expressjs, Ionic framework.'
+      + '\n' +
+      '- Đã tiếp cận các công nghệ trong dự án như: Firebase, login Google, login Facebook, AzureAD và một số services AWS.'
+      + '\n' +
+      '- Đã nắm vững kiến thức với Laravel và Angular, có thể tạo base source cho dự án.'
+      + '\n' +
+      '- Đã được làm với các cơ sở dữ liệu như: Mysql, Mariadb, Postgresql.'
+      + '\n' +
+      '- Thành thạo các thao tác cơ bản với git.'
+      + '\n' +
+      '- Có thể setup VPS và build project dự án.'
+      + '\n' +
+      '- Tự dựng source code bằng Expressjs, tự làm app chat android sử dụng firebase.'
+      + '\n' +
+      '- Mong muốn được làm việc trong môi trường linh hoạt, sáng tạo, hiện đại và chuyên nghiệp.'
+      + '\n' +
+      '- Tiếp thu kiến thức để nâng cao kinh nghiệm bản thân và giúp nâng tầm thương hiệu của công ty.'
+      + '\n' +
+      '- Vương cao vị trí hơn trong nghề nghiệp.'
   }
 }
