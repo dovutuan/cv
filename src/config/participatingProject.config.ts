@@ -1,6 +1,48 @@
 export const participatingProjects: any = {
   VI: [
     {
+      nameProject: 'Scm-ai',
+      position: 'Developer full-stack',
+      description:
+        '- Công nghệ Php sử dụng Framework Laravel + Vuejs + Python + Mysql + Mongodb + Docker + Aws + Swift + Kotlin.'
+        + '\n' +
+        '- Team size: 50MM.'
+        + '\n' +
+        '- Hệ thống đồng bộ các dự án bên hệ thống Scm và tạo lịch làm việc cho từng bảo vệ của công ty.'
+        + '\n' +
+        '- Hệ thống có xử lý AI để chọn bảo vệ phù hợp với dự án, phù hợp với calendar làm việc của bảo vệ.'
+        + '\n' +
+        '- Hệ thống được chia ra phần nhiều module nhỏ, mi module sẽ đảm nhiệm 1 task trong hệ thống bao gồm: module đồng bộ. module tạo lịch cho bảo vệ, module check bảo vệ rảnh để có thể assigned kịp thời, module đồng bộ data để AI học, module đánh giá bảo vệ.'
+        + '\n' +
+        '- Hệ thống có từng gói service để các công ty có thể lựa chọn một các phù hợp.'
+        + '\n' +
+        '- Hệ thống có các phần quản lý dự án, quản lý chấm công, quản lý bảo vệ, quản lý đánh giá, tính toán điểm cho từng đánh giá, phân bổ bảo vệ vào dự án...'
+    },
+    {
+      nameProject: 'Som',
+      position: 'Developer backend',
+      description:
+        '- Công nghệ Php sử dụng Framework Laravel + Reactjs + Postgresql + Docker + Aws.'
+        + '\n' +
+        '- Team size: 100MM.'
+        + '\n' +
+        '- Dự án B2B, hệ thống theo dõi lich trình của tàu thuyền trên toàn thế giới, có thể tracking theo tàu thuyền theo khu vực Nhật Bản.'
+    },
+    {
+      nameProject: 'Scm',
+      position: 'Developer full-stack',
+      description:
+        '- Công nghệ Php sử dụng Framework Laravel + Vuejs + Mysql + Docker + Aws + Firebase + Swift + Kotlin.'
+        + '\n' +
+        '- Team size: 17MM.'
+        + '\n' +
+        '- Dự án B2B, hệ thống tạo và nhận dự án bảo vệ, hệ thống phát triển trên web, app phát hành trên app store và play store.'
+        + '\n' +
+        '- Các công ty vào tạo và nhận dự án bảo vệ phù hợp với công ty. Các công ty có thể trao đổi thông tin với bằng hệ thống chat được tích hợp trong hệ thống.'
+        + '\n' +
+        '- Hệ thống bao gồm phần quản lý của admin: quản lý công ty, quản lý quảng cáo... và phần quản lý của các công ty: quản lý các admin, quản lý dự án, quản lý notify...'
+    },
+    {
       nameProject: 'Vstream',
       position: 'Developer full-stack',
       description:

@@ -10,7 +10,7 @@ export const info: any = {
       + '\n' +
       '- Đã tham gia nhiều dự án với các framework khác nhau như: Laravel, Vuejs, Angular.'
       + '\n' +
-      '- Có kinh nghiệm làm việc với các material design framework gồm: Vuetify, BootstrapVue, Ng-bootstrap, Ngx-bootstrap, Angular Material.'
+      '- Có kinh nghiệm làm việc với các material design framework gồm: Antd, Vuetify, BootstrapVue, Ng-bootstrap, Ngx-bootstrap, Angular Material.'
       + '\n' +
       '- Đã sử dụng html css framework như: Bootstrap, Bulma.'
       + '\n' +

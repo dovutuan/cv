@@ -2,8 +2,17 @@ export const workExperiences: any = {
   VI: [
     {
       specialize: 'Developer',
+      company: 'Ntq solution',
+      year: '07/2022 - hiện tại',
+      description:
+        '- Tham gia on-job training để có nhiều kinh nghiệm phát triền bản thân.'
+        + '\n' +
+        '- '
+    },
+    {
+      specialize: 'Developer',
       company: 'Ominext',
-      year: '12/2019 - hiện tại',
+      year: '12/2019 - 06/2022',
       description:
         '- Tham gia on-job training để có nhiều kinh nghiệm phát triền bản thân.'
         + '\n' +
