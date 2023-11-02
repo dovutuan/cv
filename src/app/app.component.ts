@@ -15,7 +15,14 @@ import {info} from 'src/config/info.config';
 })
 export class AppComponent {
 
-  info: { name: string, phone: string, email: string, address: string, technology: string, description: string } | undefined;
+  info: {
+    name: string,
+    phone: string,
+    email: string,
+    address: string,
+    technology: string,
+    description: string
+  } | undefined;
 
   socials: Array<{ href: string, icon: string }> | undefined;
 
@@ -49,8 +56,6 @@ export class AppComponent {
   }
 
   scrollTop(): void {
-    const element = document.getElementById('body');
-    // @ts-ignore
-    element.scrollTop = 0
+    window.scrollTo({top: 0, left: 0, behavior: "smooth"});
   }
 }

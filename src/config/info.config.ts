@@ -2,7 +2,7 @@ export const info: any = {
   VI: {
     name: 'Đỗ Vũ Tuấn',
     phone: '0398599888',
-    email: 'traitimcuatuan@gmail.com',
+    email: 'tuando.0598@gmail.com',
     address: 'Nam Từ Liêm, Hà Nội',
     technology: 'Web Developer',
     description:
